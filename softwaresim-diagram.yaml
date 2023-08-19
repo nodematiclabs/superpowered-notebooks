@@ -1,0 +1,824 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+height: 606
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 1279.3333740234375
+  viewPortHeight: 606
+  horizontalOffset: -297.17
+  verticalOffset: -15
+addInfo:
+  stages:
+    - control: prepend
+      class: p-button-secondary
+      icon: pi pi-plus
+    - name: Define
+      id: define
+      progress: 100
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#689F38"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+      taskLevelProgress: true
+      tasks:
+        - name: Task 1
+          progress: 100
+        - name: Task 2
+          progress: 100
+    - name: Measure
+      id: measure
+      progress: 0
+      details: ""
+      delayed: true
+      atRisk: true
+      blocked: true
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+      taskLevelProgress: false
+      tasks:
+        - name: Task 1
+          progress: 0
+    - name: Anayze
+      id: analyze
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+      taskLevelProgress: false
+      tasks:
+        - name: Task 1
+          progress: 0
+    - name: Improve
+      id: improve
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+      taskLevelProgress: false
+      tasks:
+        - name: Task 1
+          progress: 0
+    - name: Control
+      id: control
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+      taskLevelProgress: false
+      tasks:
+        - name: Task 1
+          progress: 0
+    - control: append
+      class: p-button-secondary
+      icon: pi pi-plus
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+connectors:
+  - id: Straight Connectorylpx7
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 342
+      y: 314
+    targetPoint:
+      x: 342
+      y: 358
+    sourceID: JupyteruBu4O
+    targetID: Google Kubernetes EngineB6qHm
+    addInfo:
+      viewConnector: 0
+    zIndex: 2
+  - id: Dashed Straight ConnectoraZU26
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 567
+      y: 222.6
+    targetPoint:
+      x: 492
+      y: 236.4
+    sourceID: Identity and Access ManagementfiryI
+    targetID: JupyteruBu4O
+    addInfo:
+      viewConnector: 0
+    zIndex: 5
+  - id: Dashed Straight ConnectorFxJ28
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 492
+      y: 287.2
+    targetPoint:
+      x: 567
+      y: 298.8
+    sourceID: JupyteruBu4O
+    targetID: Cloud Storagebxc0i
+    addInfo:
+      viewConnector: 0
+    zIndex: 6
+  - id: Dashed Straight ConnectorQVM2O
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 121
+      y: 204.43
+    targetPoint:
+      x: 192
+      y: 223.57
+    sourceID: Cloud GPUucReC
+    targetID: JupyteruBu4O
+    addInfo:
+      viewConnector: 0
+    zIndex: 8
+  - id: Dashed Straight ConnectorkLLAX
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: -94.35
+      y: 337.5
+    targetPoint:
+      x: -73.65
+      y: 365
+    sourceID: TensorflowROTSo
+    targetID: DockergNPM3
+    addInfo:
+      viewConnector: 0
+    zIndex: 11
+  - id: Dashed Straight ConnectorTgZSh
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 89.17
+      y: 365
+    targetPoint:
+      x: 216.83
+      y: 314
+    sourceID: DockergNPM3
+    targetID: JupyteruBu4O
+    addInfo:
+      viewConnector: 0
+    zIndex: 12
+  - id: Dashed Straight ConnectorNJpZs
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 18
+      y: 280.07
+    targetPoint:
+      x: 192
+      y: 271.44
+    sourceID: TensorflowROTSo
+    targetID: JupyteruBu4O
+    addInfo:
+      viewConnector: 0
+    zIndex: 13
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #BA5512;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Jupyter_Black_87_uahk2k.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Jupyter_lm2xh2.png);"></div><div
+        class="c-text"><div class="c-title">Jupyter Notebook</div><div
+        class="c-short-description">Interactive data analysis and visualization
+        in various programming languages</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Jupyter</div></div></div></div></div>'
+    id: JupyteruBu4O
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Jupyter
+        shortDescription: Interactive data analysis and visualization in various
+          programming languages
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Jupyter
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Jupyter
+      editableName: Jupyter Notebook
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: IDE
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: request
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenRequests
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: IDE
+          AverageTimeBetweenRequests: 1
+      name: Jupyter
+      category: 1
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/Jupyter_lm2xh2.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/Jupyter__044448_fyi1ig.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/Jupyter_Black_87_uahk2k.png
+      color: "#BA5512"
+      controlText: Jupyter
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToCircle: true
+    width: 300
+    height: 100
+    offsetX: 342
+    offsetY: 264
+    zIndex: 0
+    inEdges:
+      - Dashed Straight ConnectoraZU26
+      - Dashed Straight ConnectorQVM2O
+      - Dashed Straight ConnectorTgZSh
+      - Dashed Straight ConnectorNJpZs
+    outEdges:
+      - Straight Connectorylpx7
+      - Dashed Straight ConnectorFxJ28
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_Black_87_lho249.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_l2vvbq.png);"></div><div
+        class="c-text"><div class="c-title">Google Kubernetes Engine</div><div
+        class="c-short-description">Deploying, managing, and scaling
+        containerized applications</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Google Kubernetes EngineB6qHm
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Kubernetes Engine
+        shortDescription: Deploying, managing, and scaling containerized applications
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google Kubernetes Engine
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Kubernetes Engine
+      editableName: Google Kubernetes Engine
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Kubernetes Engine
+      category: 3
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_l2vvbq.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine__044448_l7kry7.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_Black_87_lho249.png
+      color: "#3871e0"
+      controlText: Google Kubernetes Engine
+      selectedDynamicsView: 0
+      collapsedToSquare: true
+      collapsedToCircle: false
+    width: 300
+    height: 100
+    offsetX: 342
+    offsetY: 408
+    zIndex: 1
+    inEdges:
+      - Straight Connectorylpx7
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/identity_and_access_management_Black_87_qj868e.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/identity_and_access_management_bgcfjr.png);"></div><div
+        class="c-text"><div class="c-title">Identity & Access
+        Management</div><div class="c-short-description">Managing and
+        controlling user access</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Identity and Access ManagementfiryI
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Identity and Access Management
+        shortDescription: Managing and controlling user access
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Identity and Access Management
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Identity and Access Management
+      editableName: Identity & Access Management
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Identity and Access Management
+      category: 3
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/identity_and_access_management_bgcfjr.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/identity_and_access_management__044448_tavyay.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/identity_and_access_management_Black_87_qj868e.png
+      color: "#3871e0"
+      controlText: Identity & Access Management
+      selectedDynamicsView: 0
+      collapsedToSquare: true
+      collapsedToCircle: false
+    width: 300
+    height: 100
+    offsetX: 717
+    offsetY: 195
+    zIndex: 3
+    outEdges:
+      - Dashed Straight ConnectoraZU26
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_Black_87_qiifqy.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_donk5b.png);"></div><div
+        class="c-text"><div class="c-title">Cloud Storage</div><div
+        class="c-short-description">Storing, managing, and securing large
+        amounts of data</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Cloud Storagebxc0i
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Cloud Storage
+        shortDescription: Storing, managing, and securing large amounts of data
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Cloud Storage
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Cloud Storage
+      editableName: Cloud Storage
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Object Storage
+          type: Storage
+          portsIn:
+            put: write
+            get: read
+          portsOut:
+            stored: data
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Object Storage
+      name: Cloud Storage
+      category: 3
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_donk5b.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage__044448_vsadzn.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_Black_87_qiifqy.png
+      color: "#3871e0"
+      controlText: Cloud Storage
+      selectedDynamicsView: 0
+      collapsedToSquare: true
+      collapsedToCircle: false
+    width: 300
+    height: 100
+    offsetX: 717
+    offsetY: 322
+    zIndex: 4
+    inEdges:
+      - Dashed Straight ConnectorFxJ28
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_gpu_Black_87_n5t8h2.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_gpu_sm6ih8.png);"></div><div
+        class="c-text"><div class="c-title">Cloud GPU</div><div
+        class="c-short-description">Accelerating complex computational tasks
+        using cloud-based GPUs</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Cloud GPUucReC
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Cloud GPU
+        shortDescription: Accelerating complex computational tasks using cloud-based GPUs
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Cloud GPU
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Cloud GPU
+      editableName: Cloud GPU
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Cloud GPU
+      category: 3
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_gpu_sm6ih8.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_gpu__044448_ycgjqb.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_gpu_Black_87_n5t8h2.png
+      color: "#3871e0"
+      controlText: Cloud GPU
+      selectedDynamicsView: 0
+      collapsedToSquare: true
+      collapsedToCircle: false
+    width: 300
+    height: 100
+    offsetX: -29
+    offsetY: 164
+    zIndex: 7
+    outEdges:
+      - Dashed Straight ConnectorQVM2O
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #BF5906;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1674040625/sds_logos/Tensorflow_Black_87_ut2mnn.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1674040625/sds_logos/Tensorflow_wsjqjb.png);"></div><div
+        class="c-text"><div class="c-title">Tensorflow</div><div
+        class="c-short-description">Developing and training machine learning
+        models</div><div class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Tensorflow</div></div></div></div></div>'
+    id: TensorflowROTSo
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Tensorflow
+        shortDescription: Developing and training machine learning models
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Tensorflow
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Tensorflow
+      editableName: Tensorflow
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Automated Task
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageTaskDuration
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Automated Task
+          AverageTaskDuration: 1
+      name: Tensorflow
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1674040625/sds_logos/Tensorflow_wsjqjb.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1674040625/sds_logos/Tensorflow__044448_ywaib4.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1674040625/sds_logos/Tensorflow_Black_87_ut2mnn.png
+      controlText: Tensorflow
+      color: "#BF5906"
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToCircle: true
+    width: 300
+    height: 100
+    offsetX: -132
+    offsetY: 287.5
+    zIndex: 9
+    outEdges:
+      - Dashed Straight ConnectorkLLAX
+      - Dashed Straight ConnectorNJpZs
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3478B3;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_Black_87_xpuvlp.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_gnh7eh.png);"></div><div
+        class="c-text"><div class="c-title">Docker</div><div
+        class="c-short-description">Containerizing applications to ensure
+        consistent running environments and facilitate easier
+        deployment</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div
+        class="c-title-bottom">Docker</div></div></div></div></div>'
+    id: DockergNPM3
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Docker
+        shortDescription: Containerizing applications to ensure consistent running
+          environments and facilitate easier deployment
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Docker
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Docker
+      editableName: Docker
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Deployment Target
+          type: Storage
+          portsIn:
+            put: deployed
+            get: request
+          portsOut:
+            stored: response
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Deployment Target
+      name: Docker
+      category: 1
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_gnh7eh.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker__044448_env9qq.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_Black_87_xpuvlp.png
+      color: "#3478B3"
+      controlText: Docker
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToCircle: true
+    width: 300
+    height: 100
+    offsetX: -36
+    offsetY: 415
+    zIndex: 10
+    inEdges:
+      - Dashed Straight ConnectorkLLAX
+    outEdges:
+      - Dashed Straight ConnectorTgZSh
+selectedItems:
+  width: 0
+  height: 0
